@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/*
+
+CSS Syntax
+selector {
+    property: value;
+    property2: value2;
+}
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: rgb(51, 20, 20);
+    --bacground-color: #c00407;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+    color: var(--text-color);
+}
+
+h3 {
+    color: var(--text-color);
+    width: 50%;
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+h3::first-letter {
+    color: var(--bacground-color);
+}
+
+.product-card .product-card__description {
+    color: darkcyan;
+}
+
+p {
+    color: lightblue;
+}
